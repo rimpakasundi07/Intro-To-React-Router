@@ -9,7 +9,7 @@ const Root = () => {
   return (
     <div>
       <Header></Header>
-      <div>
+      <div className="root-main">
         <Sidebar></Sidebar>
         <Outlet></Outlet>
       </div>
